@@ -1,0 +1,47 @@
+/**
+ * Place your custom styles here.
+ */
+body{
+	font-family: "Levenim MT";
+}
+#navbar {
+    position: absolute;
+    width: 100%;
+    opacity: .70;
+}
+#navbar-collapse > nav > ul{
+	float: right;
+}
+#navbar-collapse > nav > ul > li > a:hover{
+	background-color: rgba(196, 191, 192, 0.27);
+	border-bottom: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: red;
+}
+#navbar-collapse > nav > ul > li.active > a {
+	color: red;
+	background-color: #F7F7F7;
+	opacity: 0.8;
+	filter: alpha(opacity=30);
+}
+#navbar-collapse > nav > ul > li.active {
+	border-bottom: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: red;
+}
+#navbar-collapse > nav > ul.secondary > li > a {
+	float:right;
+}
+#navbar-collapse > nav > ul > li > a {
+	color: black;
+}
+.bg {
+	background: url(../images/img.jpg) no-repeat center center;
+	height: 550px;
+	background-position-y: 70%;
+	width: 100%;
+	background-size: cover;
+}
+.projects{
+	background-color: #3A3A3A;
+}
